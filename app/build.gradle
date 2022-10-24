@@ -51,12 +51,15 @@ android {
 dependencies {
 
     implementation Dependencies.coreKtx
-    implementation Dependencies.lifecycleKtx
+    implementation Dependencies.lifecycleCompose
 
     implementation Dependencies.composeUi
     implementation Dependencies.composeMaterial
     implementation Dependencies.composeUiToolingPreview
     implementation Dependencies.composeActivity
+
+    implementation Dependencies.navigationCompose
+
     debugImplementation Dependencies.composeUiTooling
     debugImplementation Dependencies.composeUiTestManifest
 

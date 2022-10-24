@@ -13,6 +13,7 @@ object Versions {
     const val compose = "1.3.0-rc01"
     const val activityCompose = "1.6.0"
     const val lifecycle = "2.5.1"
+    const val navigation = "2.5.2"
 
     const val daggerHilt = "2.44"
     const val retrofit = "2.9.0"
@@ -42,6 +43,16 @@ object Dependencies {
     const val composeUiTestManifest = "androidx.compose.ui:ui-test-manifest:${Versions.compose}"
     const val composeMaterial = "androidx.compose.material:material:${Versions.compose}"
     const val composeActivity = "androidx.activity:activity-compose:${Versions.activityCompose}"
+
+    /**
+     * Jetpack Navigation Graph
+     */
+    const val navigationCompose = "androidx.navigation:navigation-compose:${Versions.navigation}"
+
+    /**
+     * Lifecycle Viewmodel for Compose
+     */
+    const val lifecycleCompose = "androidx.lifecycle:lifecycle-viewmodel-compose:${Versions.lifecycle}"
 
     /**
      * Dagger Hilt for modern dependency injection
